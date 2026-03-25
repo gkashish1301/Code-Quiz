@@ -1,7 +1,21 @@
 # Code-Quiz
 
-The purpose of this assignment was to create a timer-based coding assessment using vanilla JavaScript that behaves like so:
+A fast-paced JavaScript fundamentals quiz that tests your knowledge under pressure. Answer correctly to keep your time, but be careful—wrong answers will cost you 10 seconds!
 
-The application has a few multiple choice questions and the ability to store top scores on the user's device. The number of questions decides the length of time for the quiz (15 seconds/question) once the user clicks "Start", but they are penalized 10 seconds if they answer a question incorrectly. The final score is based on the amount remaining on the timer.
+## 🎮 How to Play
+1. **Start:** Click the "Start Quiz" button to begin the timer.
+2. **Answer:** Read the question and select one of the four options.
+3. **Penalty:** An incorrect answer deducts 10 seconds from the clock.
+4. **Score:** Your final score is the time remaining when all questions are answered or the timer hits zero.
+5. **Save:** Enter your initials at the end to save your score to the local leaderboard.
 
-At the end of the quiz (when the user answers all questions or time is up), upon viewing their score, the user is able to enter their initials to add their score to the High Scores list. Once they enter their initials, the scoreboard will appear with an option to clear the board or restart the quiz.
+## 🛠️ Built With
+* **JavaScript (ES6+):** For the quiz logic, timer, and score handling.
+* **HTML5:** For the semantic structure.
+* **CSS3:** For the responsive layout and UI.
+* **Local Storage:** To persist high scores on the user's device.
+
+## 🚀 Installation
+Simply clone this repository and open `index.html` in your browser:
+```bash
+git clone [https://github.com/gkashish1301/Code-Quiz.git](https://github.com/gkashish1301/Code-Quiz.git)
